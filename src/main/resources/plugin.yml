@@ -1,0 +1,6 @@
+name: MSCore
+version: @version@
+main: com.masahirosaito.spigot.mscore.MSCore
+prefix: MSCore
+authors: [MasahiroSaito]
+website: https://github.com/MasahiroSaito/MSCore
