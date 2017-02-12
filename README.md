@@ -5,7 +5,7 @@
 
 | Spigot Version | MSCore Version | Download |
 | :------------: | :------------: | :------: |
-| 1.10.2 ~       | 0.2            | [◉](https://bintray.com/masahirosaito-repo/Spigot-Plugin/download_file?file_path=com%2FMasahiroSaito%2FSpigot%2FMSCore%2F0.2%2FMSCore-0.2.jar) |
+| 1.10.2 ~       | 0.3            | [◉](https://bintray.com/masahirosaito-repo/Spigot-Plugin/download_file?file_path=com%2FMasahiroSaito%2FSpigot%2FMSCore%2F0.3%2FMSCore-0.3.jar) |
 
 ## 開発環境
 
@@ -25,5 +25,5 @@ maven {
 ```
 
 ```gradle
-compile 'com.MasahiroSaito.Spigot:MSCore:0.2'
+compile 'com.MasahiroSaito.Spigot:MSCore:0.3'
 ```
