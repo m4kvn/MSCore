@@ -3,9 +3,9 @@
 
 ## バージョン
 
-| Spigot Version | MSCore Version |
-| :------------: | :------------: |
-| 1.10.2 ~       | 0.2            |
+| Spigot Version | MSCore Version | Download |
+| :------------: | :------------: | :------: |
+| 1.10.2 ~       | 0.2            | [◉](https://bintray.com/masahirosaito-repo/Spigot-Plugin/download_file?file_path=com%2FMasahiroSaito%2FSpigot%2FMSCore%2F0.2%2FMSCore-0.2.jar) |
 
 ## 開発環境
 
