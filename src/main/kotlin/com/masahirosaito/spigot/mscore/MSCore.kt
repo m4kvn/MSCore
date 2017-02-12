@@ -3,12 +3,12 @@ package com.masahirosaito.spigot.mscore
 import org.bukkit.plugin.java.JavaPlugin
 
 class MSCore : JavaPlugin() {
+    lateinit var messenger: Messenger
 
     override fun onEnable() {
-        // Plugin startup logic
+        messenger = Messenger(this, false)
     }
 
     override fun onDisable() {
-        // Plugin shutdown logic
     }
 }
