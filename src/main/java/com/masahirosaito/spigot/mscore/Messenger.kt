@@ -1,4 +1,4 @@
-package com.masahirosaito.spigot.mscore.events
+package com.masahirosaito.spigot.mscore
 
 import org.bukkit.Bukkit
 import org.bukkit.ChatColor
