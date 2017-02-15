@@ -20,4 +20,8 @@ class UpdateChecker(val organization: String, val repository: String, val name: 
             return true
         }
     }
+
+    fun sendVersionMessage(plugin: JavaPlugin) {
+        Thread { if (!isLatestVersion(plugin)) plugin.logger.info("New version available! => $url") }.start()
+    }
 }
