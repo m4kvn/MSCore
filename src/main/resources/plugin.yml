@@ -1,5 +1,5 @@
 name: MSCore
-version: @version@
+version: 0.5
 main: com.masahirosaito.spigot.mscore.MSCore
 prefix: MSCore
 authors: [MasahiroSaito]
