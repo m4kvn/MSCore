@@ -1,4 +1,4 @@
-package com.masahirosaito.spigot.mscore.materials
+package com.masahirosaito.spigot.mscore.events.materials
 
 import org.bukkit.Material
 import org.bukkit.block.Block
