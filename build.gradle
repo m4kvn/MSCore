@@ -91,12 +91,12 @@ bintray {
     publish = true
     pkg {
         repo = 'Spigot-Plugin'
-        name = 'MSCore'
+        name = "$project.name"
         userOrg = 'masahirosaito-repo'
-        websiteUrl = 'https://github.com/MasahiroSaito/MSCore'
-        issueTrackerUrl = 'https://github.com/MasahiroSaito/MSCore/issues'
+        websiteUrl = "https://github.com/MasahiroSaito/$project.name"
+        issueTrackerUrl = "https://github.com/MasahiroSaito/$project.name/issues"
         licenses = ['Apache-2.0']
-        githubRepo = 'MasahiroSaito/MSCore'
+        githubRepo = "MasahiroSaito/$project.name"
         githubReleaseNotesFile = 'README.md'
     }
 }
