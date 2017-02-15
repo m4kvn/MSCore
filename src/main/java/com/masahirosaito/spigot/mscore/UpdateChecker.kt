@@ -7,7 +7,7 @@ class UpdateChecker(val organization: String, val repository: String, val name: 
 
     val url = URL("https://bintray.com/$organization/$repository/$name/_latestVersion")
 
-    fun getLatestVersion(): String {
+    private fun getLatestVersion(): String {
         return url.openConnection().inputStream.bufferedReader().lines()
                 .filter { it.contains(Regex("\"/$organization/$repository/$name/([\\d.]+\").*(title)")) }
                 .map { it.replace(Regex("<.+?>"), "") }.toArray().first() as String
