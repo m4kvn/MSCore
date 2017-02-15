@@ -7,6 +7,8 @@ class MSCore : JavaPlugin() {
 
     override fun onEnable() {
         messenger = Messenger(this, false)
+
+        UpdateChecker("masahirosaito-repo", "Spigot-Plugin", "MSCore").sendVersionMessage(this)
     }
 
     override fun onDisable() {
