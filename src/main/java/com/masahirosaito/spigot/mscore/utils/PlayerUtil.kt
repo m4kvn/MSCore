@@ -11,14 +11,9 @@ import org.bukkit.event.player.PlayerStatisticIncrementEvent
 import org.bukkit.inventory.ItemStack
 import org.bukkit.plugin.java.JavaPlugin
 
-fun Player.itemInMainHand() = inventory.itemInMainHand!!
+val Player.itemInMainHand: ItemStack get() = inventory.itemInMainHand
 
 fun Player.isCreativeMode() = gameMode == GameMode.CREATIVE
-
-fun Player.onBreakItemInMainHand() {
-    world.playSound(location, Sound.ENTITY_ITEM_BREAK, 1f, 1f)
-    inventory.itemInMainHand = ItemStack(Material.AIR)
-}
 
 fun Player.spawnExp(amount: Int) {
     location.world.spawn(location, ExperienceOrb::class.java).experience = amount
